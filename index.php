@@ -93,31 +93,21 @@ var _prum = [['id', '53d2af8dabe53d147ddc2bdd'],
                        
                        
 <?php
-	require('blog.nileshchakraborty.com/wp-load.php'); 
-	$args = array(
-            'cat' => 3, // Only source posts from a specific category
-            'posts_per_page' => 2 // Specify how many posts you'd like to display
-	);
-	$latest_posts = new WP_Query( $args ); 	
-	if ( $latest_posts->have_posts() ) {
-		while ( $latest_posts->have_posts() ) {
-			$latest_posts->the_post(); ?>
-	
-    	<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"> 
-	<?php if ( has_post_thumbnail() ) { ?>
-			<span class="post_thumbnail"><?php the_post_thumbnail(); ?></span>
-	<?php } ?>
-			<span class="post_title"><?php the_title(); ?></span>
-		</a>
-		<span class="post_time">Posted on <?php the_time('l jS F, Y') ?></span>
-		<?php the_excerpt(); ?>
-	
-<?php } 
-		} else {
-		echo '<p> Please click the button below... </p>';
-	}
-	wp_reset_postdata();
+$url = “http://blog.nileshchakraborty.com”;
 
+$str = file_get_contents($url);
+
+function get_url_contents($url){
+        $crl = curl_init();
+        $timeout = 5;
+        curl_setopt ($crl, CURLOPT_URL,$url);
+        curl_setopt ($crl, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt ($crl, CURLOPT_CONNECTTIMEOUT, $timeout);
+        $ret = curl_exec($crl);
+        curl_close($crl);
+        return $ret;
+}
+		echo "<ol>".$str."</ol>";
 ?>
 
                     <a href="http://blog.nileshchakraborty.com/" class="btn btn-default btn-lg">View All Posts</a>
