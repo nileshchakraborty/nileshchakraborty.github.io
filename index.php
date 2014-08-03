@@ -93,7 +93,7 @@ var _prum = [['id', '53d2af8dabe53d147ddc2bdd'],
      <br/>                  
 <hr/>
 
-                    <a href="http://blog.nileshchakraborty.com/" class="btn btn-default btn-lg">View All Posts</a>
+                    <a href="http://blog.nileshchakraborty.com/" class="btn btn-default btn-lg">View Posts</a>
                 </div>
             </div>
         </div>
