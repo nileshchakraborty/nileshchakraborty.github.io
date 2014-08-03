@@ -92,7 +92,7 @@ var _prum = [['id', '53d2af8dabe53d147ddc2bdd'],
                     <p>To get the insights of my skills and also to learns some tricks and new tools, you can always take a step inside my blog. Please feel free to contact me for any requirement. For my project works and tutorials : <br/>
    
 <hr/>
-	<iframe src="http://blog.nileshchakraborty.com" width=800 height=800></iframe>
+	<iframe src="http://blog.nileshchakraborty.com" style="align-center, width:auto, height:auto"></iframe>
      <br/>                  
 <hr/>
 
