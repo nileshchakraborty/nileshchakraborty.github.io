@@ -92,8 +92,8 @@ var _prum = [['id', '53d2af8dabe53d147ddc2bdd'],
                     <p>To get the insights of my skills and also to learns some tricks and new tools, you can always take a step inside my blog. Please feel free to contact me for any requirement. For my project works and tutorials : <br/>
                        
                        
-<?php/*
-	require($_SERVER['DOCUMENT_ROOT'] . '/wp/wp-load.php'); 
+<?php
+	require('blog.nileshchakraborty.com/wp-load.php'); 
 	$args = array(
             'cat' => 3, // Only source posts from a specific category
             'posts_per_page' => 2 // Specify how many posts you'd like to display
@@ -118,7 +118,7 @@ var _prum = [['id', '53d2af8dabe53d147ddc2bdd'],
 	}
 	wp_reset_postdata();
 
-*/?>
+?>
 
                     <a href="http://blog.nileshchakraborty.com/" class="btn btn-default btn-lg">View All Posts</a>
                 </div>
