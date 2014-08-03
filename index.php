@@ -91,6 +91,32 @@ var _prum = [['id', '53d2af8dabe53d147ddc2bdd'],
                     <h2>Blog</h2>
                     <p>To get the insights of my skills and also to learns some tricks and new tools, you can always take a step inside my blog. Please feel free to contact me for any requirement. For my project works and tutorials : <br/>
                        
+
+
+<h2><?php _e('BLOG'); ?></h2>
+<?php // Get RSS Feed(s)
+  include_once(ABSPATH . WPINC . '/rss.php');
+  $rss = fetch_rss('http://blog.nileshchakraborty.com/feed/');
+  $maxitems = 5;
+  $items = array_slice($rss->items, 0, $maxitems);
+?>
+
+<ul>
+  <?php if (empty($items)): ?>
+    <li>No items</li>
+  <?php else:
+      foreach ( $items as $item ):
+        ?>
+        <li>
+          <a href='<?php echo $item['link']; ?>' title='<?php echo $item['title']; ?>'>
+            <?php echo $item['title']; ?>
+          </a>
+        </li>
+        <?php
+      endforeach;
+    endif;
+  ?>
+</ul>
      <br/>                  
 <hr/>
 
