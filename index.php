@@ -91,24 +91,8 @@ var _prum = [['id', '53d2af8dabe53d147ddc2bdd'],
                     <h2>Blog</h2>
                     <p>To get the insights of my skills and also to learns some tricks and new tools, you can always take a step inside my blog. Please feel free to contact me for any requirement. For my project works and tutorials : <br/>
                        
-                       
-<?php
-$url = “http://blog.nileshchakraborty.com”;
-
-$str = file_get_contents($url);
-
-function get_url_contents($url){
-        $crl = curl_init();
-        $timeout = 5;
-        curl_setopt ($crl, CURLOPT_URL,$url);
-        curl_setopt ($crl, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt ($crl, CURLOPT_CONNECTTIMEOUT, $timeout);
-        $ret = curl_exec($crl);
-        curl_close($crl);
-        return $ret;
-}
-		echo "<ol>".$str."</ol>";
-?>
+     <br/>                  
+<hr/>
 
                     <a href="http://blog.nileshchakraborty.com/" class="btn btn-default btn-lg">View All Posts</a>
                 </div>
