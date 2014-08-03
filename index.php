@@ -90,34 +90,9 @@ var _prum = [['id', '53d2af8dabe53d147ddc2bdd'],
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Blog</h2>
                     <p>To get the insights of my skills and also to learns some tricks and new tools, you can always take a step inside my blog. Please feel free to contact me for any requirement. For my project works and tutorials : <br/>
-                       
-<?php 
-	require($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php'); 
-	$args = array(
-            'cat' => 3, // Only source posts from a specific category
-            'posts_per_page' => 2 // Specify how many posts you'd like to display
-	);
-	$latest_posts = new WP_Query( $args ); 	
-	if ( $latest_posts->have_posts() ) {
-		while ( $latest_posts->have_posts() ) {
-			$latest_posts->the_post(); ?>
-	
-    	<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"> 
-	<?php if ( has_post_thumbnail() ) { ?>
-			<span class="post_thumbnail"><?php the_post_thumbnail(); ?></span>
-	<?php } ?>
-			<span class="post_title"><?php the_title(); ?></span>
-		</a>
-		<span class="post_time">Posted on <?php the_time('l jS F, Y') ?></span>
-		<?php the_excerpt(); ?>
-	
-<?php } 
-		} else {
-		echo '<p> Please click the button below... </p>';
-	}
-	wp_reset_postdata();
-?>
-
+   
+<hr/>
+	<iframe src="http://blog.nileshchakraborty.com" width=800 height=800></iframe>
      <br/>                  
 <hr/>
 
