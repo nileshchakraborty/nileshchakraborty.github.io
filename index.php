@@ -91,32 +91,33 @@ var _prum = [['id', '53d2af8dabe53d147ddc2bdd'],
                     <h2>Blog</h2>
                     <p>To get the insights of my skills and also to learns some tricks and new tools, you can always take a step inside my blog. Please feel free to contact me for any requirement. For my project works and tutorials : <br/>
                        
-
-
-<h2><?php _e('BLOG'); ?></h2>
-<?php // Get RSS Feed(s)
-  include_once(ABSPATH . WPINC . '/rss.php');
-  $rss = fetch_rss('http://blog.nileshchakraborty.com/feed/');
-  $maxitems = 5;
-  $items = array_slice($rss->items, 0, $maxitems);
+<?php 
+	require($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php'); 
+	$args = array(
+            'cat' => 3, // Only source posts from a specific category
+            'posts_per_page' => 2 // Specify how many posts you'd like to display
+	);
+	$latest_posts = new WP_Query( $args ); 	
+	if ( $latest_posts->have_posts() ) {
+		while ( $latest_posts->have_posts() ) {
+			$latest_posts->the_post(); ?>
+	
+    	<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"> 
+	<?php if ( has_post_thumbnail() ) { ?>
+			<span class="post_thumbnail"><?php the_post_thumbnail(); ?></span>
+	<?php } ?>
+			<span class="post_title"><?php the_title(); ?></span>
+		</a>
+		<span class="post_time">Posted on <?php the_time('l jS F, Y') ?></span>
+		<?php the_excerpt(); ?>
+	
+<?php } 
+		} else {
+		echo '<p> Please click the button below... </p>';
+	}
+	wp_reset_postdata();
 ?>
 
-<ul>
-  <?php if (empty($items)): ?>
-    <li>No items</li>
-  <?php else:
-      foreach ( $items as $item ):
-        ?>
-        <li>
-          <a href='<?php echo $item['link']; ?>' title='<?php echo $item['title']; ?>'>
-            <?php echo $item['title']; ?>
-          </a>
-        </li>
-        <?php
-      endforeach;
-    endif;
-  ?>
-</ul>
      <br/>                  
 <hr/>
 
