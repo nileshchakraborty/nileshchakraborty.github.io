@@ -3,10 +3,14 @@
       xmlns:og="http://ogp.me/ns#"
       xmlns:fb="https://www.facebook.com/2008/fbml" lang="en">
     <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <title>NILESH CHAKRABORTY</title>
+	<meta name="description" content="Nilesh Chakraborty - Java, Big Data Hadoop Developer, Researcher.">
+	<meta name="keywords" content="Nilesh Chakraborty, Hadoop, Big Data, Java, nileshc, nilesh">
+
         <!-- Using the latest rendering mode for IE -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta charset="utf-8">
+            
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
