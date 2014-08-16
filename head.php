@@ -7,7 +7,7 @@
         <title>NILESH CHAKRABORTY</title>
 	<meta name="description" content="Nilesh Chakraborty - Java, Big Data Hadoop Developer, Researcher.">
 	<meta name="keywords" content="Nilesh Chakraborty, Hadoop, Big Data, Java, nileshc, nilesh">
-
+	<meta name="alexaVerifyID" content="vpcQd2mkkd5zL1K-SK6s4UiIXA0"/>
         <!-- Using the latest rendering mode for IE -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
             
