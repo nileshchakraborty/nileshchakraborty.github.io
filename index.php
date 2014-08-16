@@ -61,7 +61,7 @@ var _prum = [['id', '53d2af8dabe53d147ddc2bdd'],
                         <h2 class="brand-heading">Nilesh Chakraborty.</h2>
                         <p class="intro-text">I am a Software Developer, Engineer, Social Entrepreneur and a total Geek and this is my page.</p>
                         <div class="fb-like" data-href="https://www.facebook.com/ChakrabortyNilesh" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
-                        <div class="fb-share" data-href="https://www.facebook.com/l/e9bf8;nileshchakraborty.com" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+                        <div class="fb-share" data-href="http://www.facebook.com/sharer.php?u=http://www.nileshchakraborty.com/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
                         <div class="page-scroll">
                             <a href="#about" class="btn btn-circle">
                                 <i class="fa fa-angle-double-down animated"></i>
