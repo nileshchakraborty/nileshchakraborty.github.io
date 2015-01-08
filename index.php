@@ -59,7 +59,7 @@ var _prum = [['id', '53d2af8dabe53d147ddc2bdd'],
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h2 class="brand-heading">Nilesh Chakraborty.</h2>
-                        <p class="intro-text">Software Engineer, Experimenter, Traveller, welcome to my webpage.</p>
+                        <p class="intro-text">Software Engineer, Experimenter, Traveller, Welcome to my webpage.</p>
                         <div class="fb-like" data-href="https://www.facebook.com/ChakrabortyNilesh" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
                         <div class="fb-share" data-href="http://www.facebook.com/sharer.php?u=http://www.nileshchakraborty.com/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
                         <div class="page-scroll">
@@ -77,8 +77,8 @@ var _prum = [['id', '53d2af8dabe53d147ddc2bdd'],
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About Nilesh</h2>
-                <p>Nilesh Chakraborty, a Software Engineer at an California based company. He is an enthusiastic programmer, he has worked on multiple project related to Java and Java technologies. He has knowlegde of Springs - IOC and AOP, and also worked on Big Data framework like Hadoop.</p>
-                <p>This webpage and <a href="http://blog.nileshchakraborty.com">blog</a> are developed to provide insight into the projects and share the works to the general public to help the opensource community.</p>
+                <p>Nilesh Chakraborty, a Software Engineer at an California based company. He is an enthusiastic programmer, he has worked on multiple project related to Java and Java technologies. He has knowledge of Springs - IOC and AOP, and also worked on Big Data framework like Hadoop.</p>
+                <p>This webpage and <a href="http://blog.nileshchakraborty.com">blog</a> are developed to provide insight into the projects and share the works to the general public to help the open source community.</p>
 
             </div>
         </div>
