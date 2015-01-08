@@ -103,7 +103,7 @@ var _prum = [['id', '53d2af8dabe53d147ddc2bdd'],
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact Me @</h2>
-                <p>Feel free to email me to provide some feedback on the page or for job related offers, give suggestions for new project ideas, or to just say hello!</p>
+                <p>Feel free to email me to provide some feedback on the page or for job related offers, give suggestions for new project ideas, or to just say hello! If you find me of any help please find the link to <a href="http://www.nileshchakraborty.com/Resume/NileshChakraborty-Resume.pdf">download my resume</a> </p>
                 <p><a href="mailto:mail@nileshchakraborty.com" class="text-success">mail@nileshchakraborty.com</a></p>
                 
                 <ul class="list-inline banner-social-buttons">
