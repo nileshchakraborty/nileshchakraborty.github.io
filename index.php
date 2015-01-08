@@ -77,7 +77,7 @@ var _prum = [['id', '53d2af8dabe53d147ddc2bdd'],
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About Nilesh</h2>
-                <p>Nilesh Chakraborty, a Software Engineer at an California based company. He is an enthusiastic programmer, he has worked on multiple project related to Java and Java technologies. He has knowledge of Springs - IOC and AOP, and also worked on Big Data framework like Hadoop.</p>
+                <p>Nilesh Chakraborty is an enthusiastic programmer, he has worked on multiple project related to Java and Java technologies. He has knowledge of Springs - IOC and AOP, and also worked on Big Data framework like Hadoop.</p>
                 <p>This webpage and <a href="http://blog.nileshchakraborty.com">blog</a> are developed to provide insight into the projects and share the works to the general public to help the open source community.</p>
 
             </div>
