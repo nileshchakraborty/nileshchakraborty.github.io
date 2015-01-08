@@ -1,4 +1,4 @@
-﻿
+
 <?php include 'head.php'; ?>
 <script>
 var _prum = [['id', '53d2af8dabe53d147ddc2bdd'],
@@ -76,9 +76,9 @@ var _prum = [['id', '53d2af8dabe53d147ddc2bdd'],
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Me</h2>
-                <p>I am Nilesh Chakraborty, a Software Developer.I am a enthuastic developer and programmer, I have worked on many languages such as: JAVA, PERL, PYTHON, C, C++, C#, SCALA, JSF, HTML5, CSS3, etc. and Java technologies known includes J2EE, Springs, Struts2, Hibernate, JSF. Database Softwares includes PostgreSQL, MS-SQL T-SQL, Oracle PL/SQL, MySQL, No-SQL - MongoDB and Big Data frameworks such as Hadoop.</p>
-                <p>I was driven into the world of programming by the interest in computers from the day I first received my first new computer. I was amazed by the power of creating stuffs that did not exist in the real world but did exist in the virtual reality, now my imagination could be expressed by the means of an app or a web blog. This became a motivational factor for me to learn how to create the applications.</p>
+                <h2>About Nilesh</h2>
+                <p>Nilesh Chakraborty, a Software Engineer at an California based company. He is an enthusiastic programmer, he has worked on multiple project related to Java and Java technologies. He has knowlegde of Springs - IOC and AOP, and also worked on Big Data framework like Hadoop.</p>
+                <p>This webpage and <a href="http://blog.nileshchakraborty.com">blog</a> are developed to provide insight into the projects and share the works to the general public to help the opensource community.</p>
 
             </div>
         </div>
@@ -89,7 +89,7 @@ var _prum = [['id', '53d2af8dabe53d147ddc2bdd'],
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Blog</h2>
-                    <p>To get the insights of my skills and also to learns some tricks and new tools, you can always take a step inside my blog. Please feel free to contact me for any requirement. For my project works and tutorials : <br/>
+                    <p>Please find the blog to get an insight of the works and projects of Nilesh Chakraborty.<br/>
      <br/>                  
 <hr/>
 
