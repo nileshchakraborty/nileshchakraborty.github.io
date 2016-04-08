@@ -44,6 +44,9 @@ var _prum = [['id', '53d2af8dabe53d147ddc2bdd'],
                         <a href="#contact">Contact</a>
                     </li>
                     <li class="page-scroll">
+                        <a href="https://blog.nileshchakraborty.com/privacy-policy/">Privacy Policy</a>
+                    </li>
+                    <li class="page-scroll">
                         
                     </li>
                 </ul>
